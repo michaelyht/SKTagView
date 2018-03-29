@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "SKTagView/Classes/*.{h,m}"
   
   #s.exclude_files = "Classes/Exclude"
 
