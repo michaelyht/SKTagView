@@ -9,3 +9,12 @@
 
 
 
+get start
+
+down：
+
+https://github.com/michaelyht/SKTagView.git
+
+pod：
+
+pod 'SKTagView', :git => "https://github.com/michaelyht/SKTagView", :branch => 'master'
