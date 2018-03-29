@@ -204,11 +204,14 @@
         
     }
     if(self.tagViewStyle == SKTagViewStyleOnlySelectOne){
+        btn.selected = YES;
         [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            btn.selected = YES;
             SKTagButton *bnt = (SKTagButton *)obj;
             if (bnt != btn) {
                 bnt.selected = NO;
+                if (bnt.skTag.borderColor) {
+                    bnt.layer.borderColor = btn.skTag.borderColor.CGColor;
+                }
             }
         }];
     }
