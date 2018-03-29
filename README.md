@@ -18,3 +18,9 @@ https://github.com/michaelyht/SKTagView.git
 pod：
 
 pod 'SKTagView', :git => "https://github.com/michaelyht/SKTagView", :branch => 'master'
+
+
+
+
+
+![image](https://raw.githubusercontent.com/michaelyht/Image/master/sktagview_xgt.PNG)
